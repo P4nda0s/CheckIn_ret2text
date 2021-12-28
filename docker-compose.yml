@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ctf:
+    build: .
+    container_name: "AutoCheckIn"
+    ports:
+      - "1447:9999"
